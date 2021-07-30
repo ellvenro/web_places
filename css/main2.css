@@ -15,7 +15,8 @@
   left: 25px;
 
   background-color: #fafafa;
-  background-image: url('images/2pr_1.png');
+  /* background-image: url('images/2pr_1.png'); */
+  background-image: url('images/1pr_1.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -24,7 +25,8 @@
 }
 
 #photo2:hover {
-  background-image: url('images/2pr_2.png');
+  /* background-image: url('images/2pr_2.png'); */
+  background-image: url('images/1pr_2.png');
   cursor: pointer;
 }
 
