@@ -9,10 +9,6 @@ body {
   height: 2000px;
 }
 
-#header {
-
-}
-
 #main {
   margin-top: 120px;
   padding-right: 7%;
@@ -58,10 +54,4 @@ body {
   position: absolute;
   left: 50px;
   top: 400px
-}
-
-#aside {
-}
-
-#footer {
 }

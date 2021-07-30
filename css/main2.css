@@ -1,0 +1,45 @@
+#main2 {
+  color: #ffffff;
+  width: 80%;
+  height: 400px;
+  background-color: #121212;
+  position: relative;
+  margin-left: 10%;
+}
+
+#photo2 {
+  width: 37%;
+  height: 350px;
+
+  top: 25px;
+  left: 25px;
+
+  background-color: #fafafa;
+  background-image: url('images/2pr_1.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  position: absolute;
+}
+
+#photo2:hover {
+  background-image: url('images/2pr_2.png');
+  cursor: pointer;
+}
+
+
+#text3 {
+  width: 40%;
+
+
+  font-size: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Segoe Script';
+  text-align: right;
+  line-height: 37px;
+  position: absolute;
+  right: 50px;
+  top: 250px
+}
