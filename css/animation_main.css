@@ -2,6 +2,7 @@
   transform: scale(110%);
   z-index: 1;
   box-shadow: 0 0 3vw #000000;
+  border: 1px solid #000000;
 }
 
 .main_bloks:hover .main_headers_1{
@@ -16,4 +17,5 @@
 
 .main_bloks:hover .main_photo_first_1, .main_bloks:hover .main_photo_first_2 {
   opacity: 0.0;
+  box-shadow: 0 0 3vw #ffffff;
 }
