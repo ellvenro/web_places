@@ -1,39 +1,46 @@
-#main2 {
+.main_bloks {
   color: #ffffff;
   width: 80%;
   height: 400px;
-  background-color: #121212;
+  background-color: #101010;
   position: relative;
   margin-left: 10%;
 }
 
-#photo2 {
+.main_headers_1, .main_headers_2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Segoe Print';
+  line-height: 400px;
+  position: absolute;
+  right: 50px;
+}
+
+.main_photo_first_1, .main_photo_second_1, .main_photo_first_2, .main_photo_second_2 {
   width: 37%;
   height: 350px;
 
   top: 25px;
   left: 25px;
 
-  background-color: #fafafa;
-  /* background-image: url('images/2pr_1.png'); */
-  background-image: url('images/1pr_1.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+  /* -webkit-transition-duration:0.96s;
+  -moz-transition-duration:0.96s;
+  -o-transition-duration:0.96s;
+  -ms-transition-duration:0.96s; */
 
   position: absolute;
+  box-shadow: -10px 10px 10px #000000;
 }
 
-#photo2:hover {
-  /* background-image: url('images/2pr_2.png'); */
-  background-image: url('images/1pr_2.png');
-  cursor: pointer;
+.main_photo_first_1:hover, .main_photo_first_2:hover {
+  opacity: 0.0;
 }
 
-
-#text3 {
+.main_text_1, .main_text_2 {
   width: 40%;
-
 
   font-size: 25px;
   font-style: normal;
@@ -44,4 +51,20 @@
   position: absolute;
   right: 50px;
   top: 250px
+}
+
+.main_headers_2 {
+  left: 50px;
+  right: 0;
+}
+
+.main_photo_first_2, .main_photo_second_2 {
+  left: 61%;
+  box-shadow: 10px 10px 10px #000000;
+}
+
+.main_text_2 {
+  text-align: left;
+  left: 50px;
+  right: 0;
 }
