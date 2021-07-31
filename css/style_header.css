@@ -6,10 +6,10 @@
 body {
   background: #141414;
   color: #ffffff;
-  height: 2000px;
+  max-width: 1920px;
 }
 
-#main {
+#header {
   margin-top: 120px;
   padding-right: 7%;
   color: #ffffff;
@@ -25,7 +25,6 @@ body {
 
   background-image: url('../img/background.jpg');
   background-repeat: no-repeat;
-  background-position: 0, 100px;
   background-position: bottom;
   background-size: cover;
   background-attachment: fixed;
@@ -35,24 +34,23 @@ body {
 }
 
 #text {
-  font-size: 100px;
+  font-size: 6.5vw;  /*100px*/
   font-style: normal;
   font-weight: bold;
-  /* font-family: 'Segoe Script'; */
   font-family: 'Segoe Print';
   line-height: 400px;
   position: absolute;
-  right: 50px;
+  right: 5%;
 }
 
 #text2 {
   width: 60%;
-  font-size: 25px;
+  font-size: 1.7vw; /*25px*/
   font-style: normal;
   font-weight: normal;
   font-family: 'Segoe Script';
-  line-height: 37px;
+  line-height: 2.5vw; /*37px*/
   position: absolute;
-  left: 50px;
-  top: 400px
+  left: 5%;
+  top: 400px;
 }

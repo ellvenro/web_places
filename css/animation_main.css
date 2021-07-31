@@ -1,0 +1,19 @@
+.main_bloks:hover{
+  transform: scale(110%);
+  z-index: 1;
+  box-shadow: 0 0 3vw #000000;
+}
+
+.main_bloks:hover .main_headers_1{
+  transform: scale(120%);
+  right: 20%;
+}
+
+.main_bloks:hover .main_headers_2 {
+  transform: scale(120%);
+  left: 20%;
+}
+
+.main_bloks:hover .main_photo_first_1, .main_bloks:hover .main_photo_first_2 {
+  opacity: 0.0;
+}

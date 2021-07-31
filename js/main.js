@@ -1,9 +1,12 @@
 function MouseOver(el)
 {
-  el.setAttribute(src, "url('css/images/1pr_2.png')");
+  // var object = document.getElementsByName('head');
+  // for (var i = 0; i < object.length; i++)
+  //   object[i].style.transform = "scale(1.5)";
+  el.head.style.transform = "scale(1.5)";
 }
 
 // function MouseOut(el)
 // {
-//   el.style.backgroundImage = "url('css/images/1pr_1.png')";
+//
 // }

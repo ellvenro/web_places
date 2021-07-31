@@ -5,26 +5,33 @@
   background-color: #101010;
   position: relative;
   margin-left: 10%;
+  transition-duration: 1.5s;
 }
 
 .main_headers_1, .main_headers_2 {
-  font-size: 40px;
+  font-size: 3vw; /*40px*/
   font-style: normal;
   font-weight: bold;
   font-family: 'Segoe Print';
-  line-height: 400px;
+  line-height: 300px;
   position: absolute;
-  right: 50px;
+  right: 8%; /*50px*/
+  transition-duration: 1.5s;
+}
+
+.main_headers_2 {
+  left: 8%;
+  right: auto;
 }
 
 .main_photo_first_1, .main_photo_second_1, .main_photo_first_2, .main_photo_second_2 {
-  width: 37%;
-  height: 350px;
+  width: 38%;
+  height: auto; /*350px*/
 
-  top: 25px;
-  left: 25px;
+  top: 7%; /*25px*/
+  right: 59%;
 
-  transition-duration: 1s;
+  transition-duration: 1.5s;
   transition-delay: 0.2s;
   /* -webkit-transition-duration:0.96s;
   -moz-transition-duration:0.96s;
@@ -32,39 +39,30 @@
   -ms-transition-duration:0.96s; */
 
   position: absolute;
-  box-shadow: -10px 10px 10px #000000;
+  box-shadow: -0.5vw 0.5vw 1vw #000000;
 }
 
-.main_photo_first_1:hover, .main_photo_first_2:hover {
-  opacity: 0.0;
+.main_photo_first_2, .main_photo_second_2 {
+  left: 59%;
+  box-shadow: 0.5vw 0.5vw 1vw #000000;
 }
 
 .main_text_1, .main_text_2 {
   width: 40%;
 
-  font-size: 25px;
+  font-size: 1.7vw; /*25px*/
   font-style: normal;
   font-weight: normal;
   font-family: 'Segoe Script';
   text-align: right;
-  line-height: 37px;
+  line-height: 2.5vw; /*37px*/
   position: absolute;
-  right: 50px;
-  top: 250px
-}
-
-.main_headers_2 {
-  left: 50px;
-  right: 0;
-}
-
-.main_photo_first_2, .main_photo_second_2 {
-  left: 61%;
-  box-shadow: 10px 10px 10px #000000;
+  right: 6%;
+  bottom: 2vw;
 }
 
 .main_text_2 {
   text-align: left;
-  left: 50px;
+  left: 6%;
   right: 0;
 }
