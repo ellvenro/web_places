@@ -1,0 +1,21 @@
+@media only screen and (max-width: 960px) {
+  #logo {
+    width: 70%;
+    left: 25%;
+  }
+
+  #text2 {
+    width: 90%;
+    font-size: 3vw;
+    line-height: 3.5vw;
+
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Segoe Script';
+
+    position: absolute;
+    left: 5%;
+    top: 400px;
+  }
+
+}
