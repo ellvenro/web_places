@@ -29,6 +29,10 @@
   right: auto;
 }
 
+.main_headers_2, #main_headers_2_Konyon {
+  width: 30%;
+}
+
 .main_photo_first_1, .main_photo_second_1, .main_photo_first_2, .main_photo_second_2 {
   width: 38%;
   height: auto; /*350px*/

@@ -1,10 +1,10 @@
-@media only screen and (max-width: 960px) {
+@media only screen and (min-width: 600px) and (max-width: 960px) {
   .main_headers_1, .main_headers_2 {
     font-size: 5vw;
   }
 
   .main_photo_first_1, .main_photo_second_1, .main_photo_first_2, .main_photo_second_2 {
-    width: 50%;
+    width: 40%;
     right: auto;
     left: 5%;
   }
@@ -15,7 +15,7 @@
   }
 
   .main_text_1, .main_text_2 {
-    width: 80%;
+    width: 95%;
     font-size: 2.7vw;
     line-height: 4vw;
     right: 3%;
@@ -36,5 +36,49 @@
 
   .main_bloks:hover #main_headers_2_Konyon {
     transform: scale(1.2) translateX(-8%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main_headers_1, .main_headers_2 {
+    font-size: 6vw; /*40px*/
+    text-align: center;
+    line-height: 1;
+    top: 5%;
+    width: 80%;
+  }
+
+  .main_headers_2, #main_headers_2_Konyon {
+    width: 80%;
+  }
+
+  .main_photo_first_1, .main_photo_second_1, .main_photo_first_2, .main_photo_second_2 {
+    width: 50%;
+    top: 17%;
+    right: 25%;
+    left: auto;
+  }
+
+  .main_text_1, .main_text_2 {
+    width: 95%;
+    font-size: 3.5vw;
+    line-height: 5vw;
+    right: 3%;
+  }
+
+  .main_text_2 {
+    left: 3%;
+  }
+
+  .main_bloks:hover .main_headers_1{
+    transform: scale(1.2);
+  }
+
+  .main_bloks:hover .main_headers_2 {
+    transform: scale(1.2);
+  }
+
+  .main_bloks:hover #main_headers_2_Konyon {
+    transform: scale(1.2);
   }
 }

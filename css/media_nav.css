@@ -1,4 +1,4 @@
-@media only screen and (max-width: 960px) {
+@media only screen and (min-width: 700px) and (max-width: 960px) {
   #nav_ul {
     padding-right: 10%;
   }
@@ -22,10 +22,30 @@
   #nav_ul li:hover .local {
     font-size: 3vw;
   }
+}
 
-  #nav_ul li:hover .local {
-    text-decoration: none;
-    transition:-webkit-transform 0.25s linear;
+@media only screen and (max-width: 700px) {
+  #nav_ul {
+    padding-right: 10%;
   }
 
+  #nav_ul li {
+    width: 90%;
+    font-size: 4vw;
+  }
+
+  #nav_ul li:hover .global {
+    transform: scale(1.1);
+  }
+
+  #nav_ul ul li{
+   padding-top: 2vw;
+   padding-left: 10%;
+   width: 150%;
+   float: none;
+  }
+
+  #nav_ul li:hover .local {
+    font-size: 4vw;
+  }
 }
