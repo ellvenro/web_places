@@ -1,0 +1,23 @@
+.main_bloks:hover{
+  transform: scale(110%);
+  z-index: 1;
+  box-shadow: 0 0 3vw #000000;
+  border: 1px solid #000000;
+}
+
+.main_bloks:hover .main_headers_1{
+  transform: scale(1.2) translateX(-70%) translateY(-50%);
+}
+
+.main_bloks:hover .main_headers_2 {
+  transform: scale(1.2) translateX(70%) translateY(-50%);
+}
+
+.main_bloks:hover #main_headers_2_Konyon {
+  transform: scale(1.2) translateX(50%) translateY(-30%);
+}
+
+.main_bloks:hover .main_photo_first_1, .main_bloks:hover .main_photo_first_2 {
+  opacity: 0.0;
+  box-shadow: 0 0 3vw #ffffff;
+}
