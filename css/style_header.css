@@ -8,6 +8,11 @@ body {
   background: #141414;
   color: #ffffff;
   max-width: 1920px;
+  font-size: 1.7vw; 
+  font-family: 'Segoe Script';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.5vw;
 }
 
 #button {
@@ -48,7 +53,7 @@ body {
 #header {
 
   position: absolute;
-  margin-top: 10%; /*120px*/
+  margin-top: 10%;
   padding-right: 7%;
   color: #ffffff;
   width: 93%;
@@ -79,25 +84,10 @@ body {
   left: 45%;
 }
 
-/* #text {
-  font-size: 6.5vw;  /*100px
-  font-style: normal;
-  font-weight: bold;
-  font-family: 'Segoe Print';
-  line-height: 400px;
-  position: absolute;
-  right: 5%;
-  text-shadow: 8px 8px 5px #000000;
-} */
-
 #text2 {
   transition-duration: 1.5s;
   width: 60%;
-  font-size: 1.7vw; /*25px*/
-  font-style: normal;
-  font-weight: normal;
-  font-family: 'Segoe Script';
-  line-height: 2.5vw; /*37px*/
+
   position: absolute;
   left: 5%;
   top: 400px;

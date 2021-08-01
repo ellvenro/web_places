@@ -10,11 +10,11 @@
 }
 
 .main_bloks:hover .main_headers_2 {
-  transform: scale(1.2) translateX(70%) translateY(-50%);
+  transform: scale(1.2) translateX(40%) translateY(-50%);
 }
 
 .main_bloks:hover #main_headers_2_Konyon {
-  transform: scale(1.2) translateX(50%) translateY(-30%);
+  transform: scale(1.2) translateX(30%) translateY(-30%);
 }
 
 .main_bloks:hover .main_photo_first_1, .main_bloks:hover .main_photo_first_2 {

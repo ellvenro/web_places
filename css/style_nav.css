@@ -4,7 +4,7 @@
   width: 100%;
   float: right;
 
-  font-family: 'Segoe Script';
+  /* font-family: 'Segoe Script'; */
   font-size: 2vw;
   text-align: center;
 }
@@ -46,7 +46,6 @@
   z-index: 2;
   list-style: none;
   left: -9999px;
-  /* display:none; */
   opacity: 0;
   transition: 0.5s linear opacity;
   position: absolute;
@@ -73,14 +72,10 @@
   text-decoration: underline;
   background: #101010;
   color: #ffffff;
-  /* transform: scale(1.1); */
 }
 
 #nav_ul li:hover .global {
-  /* transform: matrix(1.1, 0, 0, 1.1, -43, -3); */
-  /* background: #141414; */
   transform: scale(1.1) translateX(-10%) translateY(-10%);
-  /* transform: scale(1.1); */
 }
 
 #nav_ul li:hover .local {
@@ -88,7 +83,6 @@
   text-decoration: underline;
   background: #101010;
   color: #ffffff;
-  /* transform: scale(1.1); */
 }
 
 #nav_ul li:hover .local {
