@@ -31,7 +31,7 @@ body {
   box-shadow: 0 0 1vw #000000;
   transition-duration: 0.2s;
 
-  top: 5%;
+  top: -1vw;
 }
 
 #button:hover {
@@ -70,15 +70,23 @@ body {
   position: absolute;
 }
 
-#text {
-  font-size: 6.5vw;  /*100px*/
+#nav_logo_ {
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+/* #text {
+  font-size: 6.5vw;  /*100px
   font-style: normal;
   font-weight: bold;
   font-family: 'Segoe Print';
   line-height: 400px;
   position: absolute;
   right: 5%;
-}
+  text-shadow: 8px 8px 5px #000000;
+} */
 
 #text2 {
   width: 60%;

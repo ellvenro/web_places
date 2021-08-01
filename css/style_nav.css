@@ -9,10 +9,16 @@
   text-align: center;
 }
 
+/* #nav_logo {
+  width: 20%;
+  float: left;
+  margin-top: 1%;
+} */
+
 #nav_ul {
   float:right;
   margin-bottom: 10;
-  width: 100%;
+  width: 75%;
 
   padding-top: 3%;
   padding-right: 5%;
@@ -34,7 +40,8 @@
   color: #ffffff;
   text-decoration: none;
   text-shadow: 8px 8px 5px #000000;
-  background: #141414;
+  background: #101010;
+  box-shadow: 0.5vw 0.5vw 1vw #000000;
   transition:-webkit-transform 0.5s linear;
 }
 
@@ -96,4 +103,6 @@
   transform: scale(1.1);
   background: rgba(50,50,50,0.8);
   text-decoration: underline;
+  box-shadow: 0 0 1vw #000000;
+  z-index: 3;
 }

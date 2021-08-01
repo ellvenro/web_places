@@ -4,13 +4,15 @@
   <meta charset="utf-8">
   <title>Первый сайт</title>
   <link rel="stylesheet" href="css/style_nav.css">
-  <link rel="stylesheet" href="css/style_header.css">
+  <link rel="stylesheet" href="css/style_header.css" media="screen and (min-width: 960px) and (max-width: 1920px)">
+  <link rel="stylesheet" href="css/style_header_min.css" media="screen and (max-width: 960px)">
   <link rel="stylesheet" href="css/style_main.css">
   <link rel="stylesheet" href="css/animation_main.css">
 </head>
 <body>
 
   <div id="nav">
+    <!-- <img src="img/logo.png" id="nav_logo" alt="Записки путешественника"> -->
     <ul id="nav_ul">
       <li>
         <a href="#" class="global">Знаешь, что тут есть?</a>
@@ -26,14 +28,17 @@
 
   <a id="button" href="#nav">˄</a>
 
+
+
   <section id="header">
     <div id="photo"></div>
-    <h1 id="text">Шикарные места</h1>
+    <!-- <h1 id="text">Шикарные места</h1> -->
     <p id="text2" title="Уверяю тебя, это увлекательно ;)">
         Нет ничего красивее пейзажей..
         Оо, слушай, не хочешь посмотреть на них вместе со мной?)
     </p>
   </section>
+  <img src="img/logo.png" id="nav_logo_" alt="Записки путешественника">
 
   <a name="Baikal"></a>
   <section class="main_bloks">
@@ -77,7 +82,7 @@
 
   <a name="Konyon"></a>
   <section class="main_bloks">
-    <h2 class="main_headers_2">Сулакский<br>коньйон</h2>
+    <h2 class="main_headers_2" id="main_headers_2_Konyon">Сулакский<br>коньйон</h2>
     <img src="img/Konyon_2.png" class="main_photo_second_2" alt="Коньйон ночью">
     <img src="img/Konyon_1.png" class="main_photo_first_2" alt="Коньйон днем">
     <p class="main_text_2">
