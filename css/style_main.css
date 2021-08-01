@@ -13,8 +13,13 @@
   font-style: normal;
   font-weight: bold;
   font-family: 'Segoe Print';
-  line-height: 300px;
+  /* line-height: 300px; */
+  top: 30%;
+  /* width: 30%; */
+  line-height: 1;
+
   position: absolute;
+  left: auto;
   right: 8%; /*50px*/
   transition-duration: 1.5s;
 }

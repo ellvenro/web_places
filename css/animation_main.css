@@ -6,13 +6,11 @@
 }
 
 .main_bloks:hover .main_headers_1{
-  transform: scale(120%);
-  right: 20%;
+  transform: scale(1.2) translateX(-70%) translateY(-50%);
 }
 
 .main_bloks:hover .main_headers_2 {
-  transform: scale(120%);
-  left: 20%;
+  transform: scale(1.2) translateX(70%) translateY(-50%);
 }
 
 .main_bloks:hover .main_photo_first_1, .main_bloks:hover .main_photo_first_2 {
