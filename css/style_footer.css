@@ -1,0 +1,23 @@
+#footer {
+  margin-bottom: 0;
+  position: relative;
+  margin-top: 10%;
+}
+
+#link {
+  position: absolute;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  transition-duration: 1.5s;
+  right: 10%;
+}
+
+#link:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+#link:visited {
+  color: #505050;
+}

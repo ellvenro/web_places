@@ -13,6 +13,7 @@
   width: 50%;
   margin-left: 25%;
   transition-duration: 1.5s;
+  z-index: 2;
 }
 
 .slider_wrapper {
@@ -22,6 +23,7 @@
   height: 100%;
   position: relative;
   box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+  z-index: 2;
 }
 
 #btn_prev, #btn_next {
@@ -34,7 +36,7 @@
   width: 50px;
   opacity: 0.4;
   cursor: pointer;
-  transition: opacity .2s ease-in-out;
+  transition: -webkit-opacity .2s ease-in-out;
 
   text-align: center;
   line-height: 25vw;
@@ -82,10 +84,7 @@
   display: flex;
   justify-content: center;
   margin-top: 15px;
-}
-
-.dot.active {
-  background-color: #ffffff;
+  z-index: 2;
 }
 
 .dot {
@@ -100,4 +99,8 @@
 
 .dot:last-child {
   margin-right: 0;
+}
+
+.dot.active {
+  background-color: #ffffff;
 }

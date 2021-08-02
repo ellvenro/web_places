@@ -1,11 +1,11 @@
-@media only screen and (min-width: 600px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
   .main_headers_1, .main_headers_2 {
     font-size: 5vw;
   }
 
   .main_photo_first_1, .main_photo_second_1, .main_photo_first_2, .main_photo_second_2 {
-    width: 40%;
+    width: 35%;
     right: auto;
     left: 5%;
   }
@@ -17,8 +17,8 @@
 
   .main_text_1, .main_text_2 {
     width: 95%;
-    font-size: 2.7vw;
-    line-height: 4vw;
+    font-size: 2.5vw;
+    line-height: 3vw;
     right: 3%;
   }
 
@@ -36,8 +36,49 @@
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 768px)
+{
+  .main_headers_1, .main_headers_2 {
+    font-size: 4vw;
+    text-align: center;
+    line-height: 1;
+    top: 5%;
+    width: 80%;
+  }
+
+  .long {
+    width: 80%;
+  }
+
+  .main_photo_first_1, .main_photo_second_1, .main_photo_first_2, .main_photo_second_2 {
+    width: 40%;
+    top: 17%;
+    right: 30%;
+    left: auto;
+  }
+
+  .main_text_1, .main_text_2 {
+    width: 95%;
+    font-size: 3vw;
+    line-height: 4vw;
+    right: 3%;
+  }
+
+  .main_text_2 {
+    left: 3%;
+  }
+
+  .main_bloks.active .main_headers_1,
+  .main_bloks.active .main_headers_2,
+  .main_bloks.active .main_headers_1.long,
+  .main_bloks.active .main_headers_2.long
+  {
+    transform: scale(1.2);
+  }
+}
+
 @media only screen and (max-width: 600px) {
-  
+
   .main_headers_1, .main_headers_2 {
     font-size: 6vw;
     text-align: center;
