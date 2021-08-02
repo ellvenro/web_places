@@ -1,4 +1,5 @@
 @media only screen and (min-width: 600px) and (max-width: 960px) {
+
   .main_headers_1, .main_headers_2 {
     font-size: 5vw;
   }
@@ -36,8 +37,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  
   .main_headers_1, .main_headers_2 {
-    font-size: 6vw; /*40px*/
+    font-size: 6vw;
     text-align: center;
     line-height: 1;
     top: 5%;

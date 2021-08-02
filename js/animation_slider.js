@@ -1,52 +1,52 @@
 const prev = document.getElementById('btn_prev'),
       next = document.getElementById('btn_next'),
-      // slides = document.getElementsByClass('slide'),
       slides = document.querySelectorAll('.slide'),
       dots = document.querySelectorAll('.dot');
 
 let index = 0;
 
-// function activeSlide(n) {
-const activeSlide = n => {
-  for(slide of slides) {
+function activeSlide(n)
+{
+  for(slide of slides)
     slide.classList.remove('active');
-  }
   slides[n].classList.add('active');
 }
 
-const activeDot = n => {
-  for(dot of dots) {
+function activeDot(n)
+{
+  for(dot of dots)
     dot.classList.remove('active');
-  }
   dots[n].classList.add('active');
 }
 
-const active = ind => {
+function active(ind)
+{
   activeSlide(ind);
   activeDot(ind);
 }
 
-// function mextSlide() {
-const nextSlide = () => {
-  if(index == slides.length - 1) {
+function nextSlide()
+{
+  if(index == slides.length - 1)
     index = 0;
-  } else {
+  else
     index++;
-  }
   active(index);
 }
 
-const prevSlide = () => {
-  if(index == 0) {
+function prevSlide()
+{
+  if(index == 0)
     index = slides.length - 1;
-  } else {
+  else
     index--;
-  }
   active(index);
 }
 
-dots.forEach((item, indexDot) => {
-  item.addEventListener('click', () => {
+dots.forEach((item, indexDot) =>
+{
+  item.addEventListener('click', () =>
+  {
     index = indexDot;
     active(index);
   })

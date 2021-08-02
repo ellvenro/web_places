@@ -52,7 +52,6 @@ body {
 #button:hover {
   font-weight: 900;
   box-shadow: 0 0 3vw #202020;
-  /* border: 2px solid #202020; */
   border: 2px solid #303030;
   transform: scale(0.9);
 }
@@ -63,7 +62,6 @@ body {
 }
 
 #header {
-
   position: absolute;
   margin-top: 10%;
   margin-bottom: 3%;
