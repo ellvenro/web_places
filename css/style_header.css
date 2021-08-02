@@ -38,7 +38,7 @@ body {
   text-align: center;
   text-decoration: none;
 
-  z-index: 2;
+  z-index: 3;
   box-shadow: 0 0 1vw #000000;
   transition-duration: 0.2s;
 

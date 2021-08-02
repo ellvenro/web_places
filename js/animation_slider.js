@@ -1,7 +1,8 @@
 const prev = document.getElementById('btn_prev'),
       next = document.getElementById('btn_next'),
       slides = document.querySelectorAll('.slide'),
-      dots = document.querySelectorAll('.dot');
+      dots = document.querySelectorAll('.dot'),
+      captions = document.querySelectorAll('.caption');
 
 let index = 0;
 
@@ -19,10 +20,18 @@ function activeDot(n)
   dots[n].classList.add('active');
 }
 
+function activeCaption(n)
+{
+  for(caption of captions)
+    caption.classList.remove('active');
+  captions[n].classList.add('active');
+}
+
 function active(ind)
 {
   activeSlide(ind);
   activeDot(ind);
+  activeCaption(ind);
 }
 
 function nextSlide()

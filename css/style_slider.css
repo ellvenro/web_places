@@ -16,6 +16,8 @@
   z-index: 2;
 }
 
+/* Стили для слайдов, картинок и кнопок */
+
 .slider_wrapper {
   display: flex;
   justify-content: center;
@@ -79,6 +81,39 @@
   width: 100%;
   height: 100%;
 }
+
+/* Стили для подписей к картинкам */
+
+.slide_caption {
+  background: none;
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  opacity: 0;
+  transition-duration: 1.5s;
+}
+
+.slide_caption img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slide_caption .caption {
+  position: absolute;
+  padding-top: 3%;
+  padding-left: 3%;
+  /* display: none; */
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.slide_caption .caption.active {
+  /* display: block; */
+  opacity: 1;
+}
+
+/* Стили для нижних кнопок-точек */
 
 .dots_wrapper {
   display: flex;
