@@ -1,6 +1,6 @@
 const blocks = document.querySelectorAll('.main_bloks');
 
-function animEvent(params)
+function animEvent()
 {
   for(block of blocks)
   {
@@ -28,4 +28,13 @@ function offset(el)
   return i;
 }
 
+function animHead()
+{
+  const head = document.getElementById('logo'),
+        head_text = document.getElementById('text_head');
+  head.classList.add('active');
+  head_text.classList.add('active');
+}
+
+setTimeout(() => {animHead()}, 1000);
 window.addEventListener('scroll', animEvent);

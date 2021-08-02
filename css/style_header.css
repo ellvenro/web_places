@@ -88,17 +88,30 @@ body {
 
 #logo {
   transition-duration: 1.5s;
-  width: 50%;
+  width: 45%;
   position: absolute;
-  top: 20vw;
+  top: 25vw;
   left: 45%;
+  opacity: 0;
 }
 
-#text2 {
-  transition-duration: 1.5s;
-  width: 60%;
+#logo.active {
+  width: 50%;
+  top: 20vw;
+  opacity: 1;
+}
 
+#text_head {
+  transition-duration: 1.5s;
+  width: 50%;
   position: absolute;
   left: 5%;
+  top: 450px;
+  opacity: 0;
+}
+
+#text_head.active {
+  width: 60%;
   top: 400px;
+  opacity: 1;
 }

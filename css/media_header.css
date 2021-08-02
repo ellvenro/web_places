@@ -7,11 +7,22 @@
   }
 
   #logo {
+    width: 60%;
+    left: 25%;
+  }
+
+  #logo.active {
     width: 70%;
     left: 25%;
   }
 
-  #text2 {
+  #text_head {
+    width: 70%;
+    font-size: 3vw;
+    line-height: 3.5vw;
+  }
+
+  #text_head.active {
     width: 90%;
     font-size: 3vw;
     line-height: 3.5vw;
@@ -28,15 +39,22 @@
   }
 
   #logo {
-    width: 100%;
+    width: 80%;
     left: 0;
   }
 
-  #text2 {
-    width: 90%;
+  #logo.active {
+    width: 100%;
+  }
+
+  #text_head {
+    width: 70%;
     font-size: 4vw;
     line-height: 4.5vw;
+  }
 
+  #text_head.active {
+    width: 90%;
   }
 
 }
