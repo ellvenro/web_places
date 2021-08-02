@@ -8,11 +8,18 @@ body {
   background: #141414;
   color: #ffffff;
   max-width: 1920px;
-  font-size: 1.7vw; 
+  font-size: 1.7vw;
   font-family: 'Segoe Script';
   font-style: normal;
   font-weight: normal;
   line-height: 2.5vw;
+
+  height: 3000px;
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #button {
@@ -37,12 +44,17 @@ body {
   transition-duration: 0.2s;
 
   top: -1vw;
+  opacity: 0.9;
+
+  border: 2px solid #202020;
 }
 
 #button:hover {
   font-weight: 900;
   box-shadow: 0 0 3vw #202020;
-  border: 2px solid #202020;
+  /* border: 2px solid #202020; */
+  border: 2px solid #303030;
+  transform: scale(0.9);
 }
 
 #button:active {
@@ -54,6 +66,7 @@ body {
 
   position: absolute;
   margin-top: 10%;
+  margin-bottom: 3%;
   padding-right: 7%;
   color: #ffffff;
   width: 93%;
@@ -66,7 +79,7 @@ body {
   width: 100%;
   height: 500px;
 
-  background-image: url('../img/background.jpg');
+  background-image: url('../img/background.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -80,7 +93,7 @@ body {
   transition-duration: 1.5s;
   width: 50%;
   position: absolute;
-  top: 40%;
+  top: 20vw;
   left: 45%;
 }
 

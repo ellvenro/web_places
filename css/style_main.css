@@ -1,3 +1,5 @@
+/* Стили для 4 блоков в первой секции _1 - для нечетных, _2 - для четных */
+
 .main_bloks {
   color: #ffffff;
   width: 80%;
@@ -6,10 +8,11 @@
   position: relative;
   margin-left: 10%;
   transition-duration: 1.5s;
+  opacity: 0.9;
 }
 
 .main_headers_1, .main_headers_2 {
-  font-size: 3vw; 
+  font-size: 3vw;
   font-style: normal;
   font-weight: bold;
   font-family: 'Segoe Print';
@@ -65,4 +68,15 @@
   text-align: left;
   left: 6%;
   right: auto;
+}
+
+/* Стили для второй секции */
+.header_2 {
+  padding-left: 5%;
+  height: 6vw;
+  line-height: 6vw;
+
+  margin-top: 3%;
+  margin-bottom: 3%;
+  background-color: rgba(0,0,0,0.7);
 }
