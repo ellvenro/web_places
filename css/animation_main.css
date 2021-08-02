@@ -13,7 +13,11 @@
   transform: scale(1.2) translateX(40%) translateY(-50%);
 }
 
-.main_bloks:hover #main_headers_2_Konyon {
+.main_bloks:hover .main_headers_1.long {
+  transform: scale(1.2) translateX(-30%) translateY(-30%);
+}
+
+.main_bloks:hover .main_headers_2.long {
   transform: scale(1.2) translateX(30%) translateY(-30%);
 }
 

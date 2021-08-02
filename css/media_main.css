@@ -26,16 +26,12 @@
     left: 3%;
   }
 
-  .main_bloks:hover .main_headers_1{
+  .main_bloks:hover .main_headers_1,
+  .main_bloks:hover .main_headers_2,
+  .main_bloks:hover .main_headers_1.long,
+  .main_bloks:hover .main_headers_2.long
+  {
     transform: scale(1.2);
-  }
-
-  .main_bloks:hover .main_headers_2 {
-    transform: scale(1.2);
-  }
-
-  .main_bloks:hover #main_headers_2_Konyon {
-    transform: scale(1.2) translateX(-8%);
   }
 }
 
@@ -48,7 +44,7 @@
     width: 80%;
   }
 
-  .main_headers_2, #main_headers_2_Konyon {
+  .long {
     width: 80%;
   }
 
@@ -70,15 +66,11 @@
     left: 3%;
   }
 
-  .main_bloks:hover .main_headers_1{
-    transform: scale(1.2);
-  }
-
-  .main_bloks:hover .main_headers_2 {
-    transform: scale(1.2);
-  }
-
-  .main_bloks:hover #main_headers_2_Konyon {
+  .main_bloks:hover .main_headers_1,
+  .main_bloks:hover .main_headers_2,
+  .main_bloks:hover .main_headers_1.long,
+  .main_bloks:hover .main_headers_2.long
+  {
     transform: scale(1.2);
   }
 }
