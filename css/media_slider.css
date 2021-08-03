@@ -16,6 +16,10 @@
     margin-left: 0;
   }
 
+  .slider_wrapper {
+    height: 55vw;
+  }
+
   .dot {
     width: 2vw;
     height: 2vw;

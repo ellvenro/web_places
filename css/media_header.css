@@ -45,6 +45,7 @@
 
   #logo.active {
     width: 100%;
+    top: 40vw;
   }
 
   #text_head {
