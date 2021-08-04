@@ -4,8 +4,7 @@ function animEvent()
 {
   for(block of blocks)
   {
-    const animItemH = block.offsetHeight,
-          animItemOffset = offset(block),
+    const animItemOffset = offset(block),
           animStart = 2;
     let animItemPoin = window.innerHeight - window.innerHeight / animStart;
 
