@@ -19,6 +19,17 @@
 
 ## Основные моменты при реализации
 
+Все использованные шрифты были подключены из внешних файлов.
+
+```CSS
+@font-face {
+	font-family: 'Segoe Script Normal';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Segoe Script Normal'), url('../fonts/segoesc.ttf');
+}
+```
+
 Простая анимация при наведении и нажатии кнопки мыши была осуществлена с помощью CSS-стилей (были использованы псевдо-классы _:hover_ и _:active_):
 + реализация кнопки "Наверх";
 
@@ -80,7 +91,7 @@ window.addEventListener('scroll', animEvent);
 
 Адаптация сайтов реализована с помощью медиа-запросов.
 
-```css
+```CSS
 @media only screen and (min-width: 1024px) {
   /* CSS-стили для ширины экрана, большей 1024px */
 }
